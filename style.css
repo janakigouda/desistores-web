@@ -733,6 +733,7 @@ div{
     .wrapper .header .header-up .container .mb-view{
         display: block;
         color: aliceblue;
+        font-weight: 500;
         position: relative;
         float: left;
         margin-left: 5%;
