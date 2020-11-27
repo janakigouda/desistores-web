@@ -26,6 +26,7 @@ $(document).ready(function () {
       items: 1,
       loop: true,
       nav: true,
+      dots:false,
       touchDrag: true,
       autoplay: true,
       smartSpeed: 1500,
@@ -55,14 +56,14 @@ $(document).ready(function () {
       items: 5,
       loop: true,
       touchDrag: true,
-      autoplay: true,
-      smartSpeed: 1000,
-      autoplaySpeed: 1500,
+    //   autoplay: true,
+    //   smartSpeed: 1000,
+    //   autoplaySpeed: 1500,
       responsiveClass: true,
       nav: true,
       responsive: {
           0: {
-              items: 1,
+              items: 2,
               nav: true
           },
           600: {
@@ -82,14 +83,14 @@ $(document).ready(function () {
         items: 6,
         loop: true,
         touchDrag: true,
-        autoplay: true,
-        smartSpeed: 1000,
-        autoplaySpeed: 1500,
+        // autoplay: true,
+        // smartSpeed: 1000,
+        // autoplaySpeed: 1500,
         responsiveClass: true,
         nav: true,
         responsive: {
             0: {
-                items: 1,
+                items: 2,
                 nav: true
             },
             600: {
@@ -108,14 +109,14 @@ $(document).ready(function () {
         items: 6,
         loop: true,
         touchDrag: true,
-        autoplay: true,
-        smartSpeed: 1000,
-        autoplaySpeed: 1500,
+        // autoplay: true,
+        // smartSpeed: 1000,
+        // autoplaySpeed: 1500,
         responsiveClass: true,
         nav: true,
         responsive: {
             0: {
-                items: 1,
+                items: 2,
                 nav: true
             },
             600: {
@@ -128,5 +129,13 @@ $(document).ready(function () {
                 loop: true
             }
         }
+    });
+  });
+
+
+
+  $(document).ready(function(){
+    $(".next").click(function(){
+      $(".block-4 .row").scrollLeft(-100);
     });
   });

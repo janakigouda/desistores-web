@@ -50,6 +50,7 @@
         height: 100%;
         top: 0;
         overflow: visible!important;
+        z-index: 3;
     }
     .wrapper .header .responsive .container{
         margin-left: 15px;
@@ -62,12 +63,13 @@
     .wrapper .owl-carousel .item .img{
         height: 30%;
     }
-    .owl-nav>button{
+    /* .owl-nav>button{
         display: none;
-    }
+    } */
   .wrapper .down-container .main-block .f-block{
       width: 75%;
       height: 30%;
+      margin-top: 5px;
   }
     .wrapper .down-container .main-block .f-block .block-1-1>.block-1-btn{
         margin-left: 80%;
@@ -75,6 +77,28 @@
     .wrapper .down-container .main-block .s-block,
     .wrapper .down-container .main-block .t-block{
         height: 30%;
+    }
+    .wrapper .down-container .main-block .s-block .block2>.block-1-btn,
+    .wrapper .down-container .main-block .t-block .block3>.block-1-btn{
+        margin-left: 88%;
+    }
+        /* advortise */
+    .wrapper .advo{
+        margin-left: 74%;
+        margin-top:3.4rem ;
+        padding-left:5px ;
+        padding-right: 5PX;
+   }
+    .wrapper .advo .ban{
+        width:185px; 
+        height: 270px;
+    }
+    .wrapper .advo .ban>img{
+        width:185px; 
+        height: 270px;
+    }
+    .wrapper .adv-1 .adv1-1>img{
+        width: 247px;
     }
   }
 
@@ -137,11 +161,12 @@
     }
     .wrapper .header .responsive{
         display: block;
-        position: absolute;
-        width: 40%;
+        position: fixed;
+        width: 50%;
         height: 100%;
         top: 0;
         overflow: visible!important;
+        z-index: 3;
     }
     .wrapper .header .responsive .container{
         margin-left: 15px;
@@ -170,7 +195,7 @@
     .wrapper .down-container .main-block .f-block .block-1-1>.block-1-btn,
     .wrapper .down-container .main-block .s-block .block2>.block-1-btn,
     .wrapper .down-container .main-block .t-block .block3>.block-1-btn{
-        margin-left: 80%;
+        margin-left: 82%;
         padding: 4px 8px;
         font-size: 12px;
     }
@@ -187,14 +212,21 @@
     .wrapper .down-container .main-block .s-block .block-2-1>.row,
     .wrapper .down-container .main-block .t-block .block-3-1>.row,
     .wrapper .down-container .main-block .f-block .block-1>.row {
-        padding: 40px;
+        padding: 30px;
     }
     .wrapper .down-container .main-block .f-block .block-1 .row>.top-img,
     .wrapper .down-container .main-block .s-block .block-2-1 .row>.b-img,
     .wrapper .down-container .main-block .t-block .block-3-1 .row>.b-img{
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 20px;
+        width: 200px;
     }
-
+    /* advortise */
+    .wrapper .advo{
+        display: none;
+    }
+    .wrapper .adv-1 .adv1-1>img{
+        width: 400px;
+        padding-left: 2px;
+    }
 
 }
