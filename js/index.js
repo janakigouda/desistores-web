@@ -28,9 +28,9 @@ $(document).ready(function () {
       nav: true,
       dots:false,
       touchDrag: true,
-      autoplay: true,
-      smartSpeed: 1500,
-      autoplaySpeed: 1000,
+    //   autoplay: true,
+    //   smartSpeed: 1500,
+    //   autoplaySpeed: 1000,
       responsiveClass: true,
       responsive: {
           0: {
