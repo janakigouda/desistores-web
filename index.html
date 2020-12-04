@@ -4,11 +4,10 @@
 <head>
     <title>Desistores</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-
-
-
 
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
@@ -46,7 +45,7 @@
                                         <option value="7">Home Made Products </option>
                                     </select>
                                 </div>
-                                <input type="text" class="form-control" autocomplete="off" placeholder="Search">
+                                <input type="text" class="form-control" autocomplete="on" placeholder="Search">
                                 <span class="input-btn">
                                     <button type="submit" class="btn-search"><i class="fa fa-search"></i></button>
                                 </span>
@@ -66,11 +65,11 @@
             <div id="down-header" class="header-down">
                 <div class="container">
                     <ul class="mega-menu">
-                        <span class="close-btn">&times;</span>
+                        <li class="close-btn"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+                                    class="fa fa-times" aria-hidden="true"></i></a></li>
                         <li class="sub-menu"><a href="#">Home</a></li>
-                        <li class="sub-menu"><a href="#">Desi Cow <i class="fa fa-angle-down"
-                                    aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                        <li class="sub-menu con"><a href="#">Desi Cow <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Daily Need <i class="fa fa-caret-right"
                                         aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -132,9 +131,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Organic/Natural <i class="fa fa-angle-down"
+                        <li class="sub-menu con"><a href="#">Organic/Natural <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Organic Home Care <i class="fa fa-caret-right"
                                         aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -191,9 +190,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Ayurvedic <i class="fa fa-angle-down"
+                        <li class="sub-menu con"><a href="#">Ayurvedic <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Ayurvedic Personal care <i
                                         class="fa fa-caret-right" aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -238,9 +237,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Farmer's Special <i class="fa fa-angle-down"
+                        <li class="sub-menu con"><a href="#">Farmer's Special <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Farmers Food and Grains <i
                                         class="fa fa-caret-right" aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -267,9 +266,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Eco Products <i class="fa fa-angle-down"
+                        <li class="sub-menu con"><a href="#">Eco Products <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Eco Gardenning <i class="fa fa-caret-right"
                                         aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -321,9 +320,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Deepavali Special <i class="fa fa-angle-down"
+                        <li class="sub-menu con"><a href="#">Deepavali Special <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Gomaya Deep <i class="fa fa-caret-right"
                                         aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -347,9 +346,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Home Made Products <i class="fa fa-angle-down"
+                        <li class="sub-menu con"><a href="#">Home Made Products <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
-                            <div class="submenu-stepone">
+                            <div id="sub" class="submenu-stepone">
                                 <a href="#" class="submenuone-title_1">Spices and Pickels <i class="fa fa-caret-right"
                                         aria-hidden="true"></i></a>
                                 <div class="submenu-steptwo_1">
@@ -380,7 +379,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sub-menu"><a href="#">Seller Corner <i class="fa fa-angle-down"
+                        <li id="con" class="sub-menu"><a href="#">Seller Corner <i class="fa fa-angle-down"
                                     aria-hidden="true"></i></a>
                             <div class="submenu-seller">
                                 <ul class="row-list-seller">
@@ -397,7 +396,7 @@
         <!-- carousel -->
         <div id="owl-carousel" class="carousel-1 owl-carousel">
             <div class="item" style="height: 40%;">
-                <img src="assets/kart-img/bn1.jpg" style="width:100%;height: 40%;" class="img">
+                <img src="assets/kart-img/bn1.jpg" style="width:100%;" class="img">
             </div>
             <div class="item">
                 <img src="assets/kart-img/bn6.jpg" style="width:100%" class="img">
@@ -488,7 +487,7 @@
                 <!-- second block -->
                 <div class="s-block">
                     <div class="block2">
-                        <h3>Top Selling Product</h3>
+                        <h3>Top Selling Products</h3>
                         <a class="block-1-btn" href="#">View All</a>
                     </div>
                     <div id="block-2" class="block-2-1 owl-carousel">

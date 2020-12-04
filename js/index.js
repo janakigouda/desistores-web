@@ -10,7 +10,7 @@ $(document).ready(function() {
   });
 
 
-  //  toggle sidebar
+  //  toggle sidebar open
   function myFunction() {
     var x = document.getElementById("down-header");
     if (x.className === "header-down") {
@@ -19,6 +19,16 @@ $(document).ready(function() {
         x.className = "header-down";
     }
 }
+// toggle close
+function closeNav() {
+    var a = document.getElementById("down-header");
+    if (a.className === "header-down") {
+        a.className.removeClass(" responsive");
+    } else {
+        a.className = "header-down";
+    }
+  }
+
 
 // carousel
 $(document).ready(function () {
@@ -129,13 +139,5 @@ $(document).ready(function () {
                 loop: true
             }
         }
-    });
-  });
-
-
-
-  $(document).ready(function(){
-    $(".next").click(function(){
-      $(".block-4 .row").scrollLeft(-100);
     });
   });

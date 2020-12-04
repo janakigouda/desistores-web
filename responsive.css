@@ -1,4 +1,5 @@
 @media only screen and (min-width: 768px) and (max-width:991px){
+    /* header */
     .wrapper .header .header-up .container .mb-view{
         display: block;
         color: aliceblue;
@@ -9,9 +10,6 @@
         width: 10%;
         top: 0.5rem;
     }
-    /* .wrapper .header .header-up{
-        position: fixed;
-    } */
     .wrapper .header .header-up .container .logo{
         width: 45%;
         text-align: center;
@@ -20,7 +18,7 @@
     }
     .wrapper .header .header-up .container .headersearch{
         position: relative;
-        margin-top:2rem ;
+        margin-top:1rem ;
         width: 85%;
         left: 0;
         right: 0;
@@ -43,19 +41,85 @@
     .wrapper .header .header-down{
         display: none;
     }
+    /* sidebar */
     .wrapper .header .responsive{
         display: block;
-        position: absolute;
+        position: fixed;
         width: 40%;
         height: 100%;
         top: 0;
         overflow: visible!important;
         z-index: 3;
     }
-    .wrapper .header .responsive .container{
-        margin-left: 15px;
-        margin-right: 15px;
+    .wrapper .header-up .responsive{
+        position: fixed;
     }
+    .wrapper .header .responsive .container{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+    .wrapper .header .responsive .container .mega-menu{
+        margin-top: 2rem;
+        left: 0;
+        right: 0;
+    }
+    .wrapper .header .responsive .container .mega-menu>li{
+        padding: 5px 2px;
+        width: 100%;
+    }
+    
+    .wrapper .header .responsive .container .mega-menu>li>a{
+        float: left;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn{
+        display: block;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn>a{
+        float: right;
+        margin-right: 10px;
+        color: black;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn>a>.fa{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu{
+        border-bottom: 1px solid gainsboro;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu:hover,
+    .wrapper .header .responsive .container .mega-menu>.sub-menu:focus{
+        background-color: gainsboro;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>a>.fa{
+        display: none;
+    }
+    .wrapper .header .responsive .container .mega-menu .sub-menu #sub
+    {
+        display: none;
+    }
+    .wrapper .header .responsive .container .mega-menu>#con>a>i{
+        display: block;
+        float: right;
+        margin-left: 170px;
+    }
+
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>.submenu-seller{
+        position: relative;
+        background-color: gainsboro;
+        margin-left:0;
+        width: 100%;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>.submenu-seller>.row-list-seller>li>a{
+        float: left;
+        color: rgb(22, 22, 22);
+    }
+
+
+
+
+
+    /* main */
     .wrapper .owl-carousel{
         overflow: hidden!important;
         position: relative;
@@ -102,7 +166,8 @@
     }
   }
 
-  @media only screen and (min-width: 250px) and (max-width: 600px){
+  @media only screen and (min-width:350px) and (max-width: 600px){
+      /* header */
     .wrapper .header .header-up .container .mb-view{
         display: block;
         color: aliceblue;
@@ -159,25 +224,87 @@
     .wrapper .header .header-down{
         display: none;
     }
+    /* sidebar */
     .wrapper .header .responsive{
         display: block;
         position: fixed;
-        width: 50%;
+        width: 60%;
         height: 100%;
         top: 0;
         overflow: visible!important;
         z-index: 3;
     }
-    .wrapper .header .responsive .container{
-        margin-left: 15px;
-        margin-right: 15px;
+    .wrapper .header-up .responsive{
+        position: fixed;
     }
+    .wrapper .header .responsive .container{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+    .wrapper .header .responsive .container .mega-menu{
+        margin-top: 2rem;
+        left: 0;
+        right: 0;
+    }
+    .wrapper .header .responsive .container .mega-menu>li{
+        padding: 5px 2px;
+        width: 100%;
+    }
+    
+    .wrapper .header .responsive .container .mega-menu>li>a{
+        float: left;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn{
+        display: block;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn>a{
+        float: right;
+        margin-right: 10px;
+        color: black;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn>a>.fa{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu{
+        border-bottom: 1px solid gainsboro;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu:hover,
+    .wrapper .header .responsive .container .mega-menu>.sub-menu:focus{
+        background-color: gainsboro;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>a>.fa{
+        display: none;
+    }
+    .wrapper .header .responsive .container .mega-menu .sub-menu #sub
+    {
+        display: none;
+    }
+    .wrapper .header .responsive .container .mega-menu>#con>a>i{
+        display: block;
+        float: right;
+        margin-left: 5.5rem;
+    }
+
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>.submenu-seller{
+        position: relative;
+        background-color: gainsboro;
+        margin-left:0;
+        width: 100%;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>.submenu-seller>.row-list-seller>li>a{
+        float: left;
+        color: rgb(22, 22, 22);
+    }
+
+    /* main */
     .wrapper .owl-carousel{
         overflow: hidden!important;
         position: relative;
     }
     .wrapper .owl-carousel .item .img{
-        height: 30%;
+        height: 150px!important;
     }
     .owl-nav>button{
         display: none;
@@ -225,8 +352,216 @@
         display: none;
     }
     .wrapper .adv-1 .adv1-1>img{
-        width: 400px;
+        width: 100%;
         padding-left: 2px;
+    }
+
+}
+
+@media only screen and (min-width:280px) and (max-width: 340px){
+    /* header */
+    .wrapper .header .header-up .container .mb-view{
+        display: block;
+        color: aliceblue;
+        position: relative;
+        float: left;
+        margin-left: 1%;
+        padding: 9px 10px;
+        width: 9%;
+        top: 0.5rem;
+    }
+    .wrapper .header .header-up .container .logo{
+        width:12%;
+        text-align: center;
+        left: 0;
+        top: 0.6rem;
+    }
+    .wrapper .header .header-up .container .logo img{
+        height: 19px!important;
+        margin-left: 5%;
+    }
+    .wrapper .header .header-up .container .headersearch{
+        position: relative;
+        /* margin-top:1rem ; */
+        width: 95%;
+        left: 0;
+        right: 0;
+        margin-left: 5%;
+        bottom: 0;
+    }
+    .wrapper .header .header-up .container .headersearch form .search .search-category{
+        display: none;
+    }
+    .wrapper .header .header-up .container .headersearch form .search .form-control{
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        width: 80%!important;
+    }
+    .wrapper .header .header-up .container .header-left{
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        font-size: 10px;
+    }
+    .wrapper .header .header-up .container .header-left .header-c-s{
+        position: relative;
+        float: left;
+    }
+    .wrapper .header .header-up .container .header-left .header-c-s .btn-warn{
+        font-size: 90%;
+        padding: 2px 5px;
+    }
+    .wrapper .header .header-up .container .header-left .cart{
+        position: relative;
+        float: left;
+        padding: 2px;
+        top: 0;
+        margin-top: 22px;
+    }
+    .wrapper .header .header-down{
+        display: none;
+    }
+    /* sidebar */
+
+    .wrapper .header .responsive{
+        display: block;
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        overflow: visible!important;
+        z-index: 3;
+    }
+    .wrapper .header-up .responsive{
+        position: fixed;
+    }
+    .wrapper .header .responsive .container{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+    .wrapper .header .responsive .container .mega-menu{
+        margin-top: 2rem;
+        left: 0;
+        right: 0;
+    }
+    .wrapper .header .responsive .container .mega-menu>li{
+        padding: 5px 2px;
+        width: 100%;
+    }
+    
+    .wrapper .header .responsive .container .mega-menu>li>a{
+        float: left;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn{
+        display: block;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn>a{
+        float: right;
+        margin-right: 10px;
+        color: black;
+    }
+    .wrapper .header .responsive .container .mega-menu>.close-btn>a>.fa{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu{
+        border-bottom: 1px solid gainsboro;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu:hover,
+    .wrapper .header .responsive .container .mega-menu>.sub-menu:focus{
+        background-color: gainsboro;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>a>.fa{
+        display: none;
+    }
+    .wrapper .header .responsive .container .mega-menu .sub-menu #sub
+    {
+        display: none;
+    }
+    .wrapper .header .responsive .container .mega-menu>#con>a>i{
+        display: block;
+        float: right;
+        margin-left: 3rem;
+    }
+
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>.submenu-seller{
+        position: relative;
+        background-color: gainsboro;
+        margin-left:0;
+        width: 100%;
+    }
+    .wrapper .header .responsive .container .mega-menu>.sub-menu>.submenu-seller>.row-list-seller>li>a{
+        float: left;
+        color: rgb(22, 22, 22);
+    }
+
+    /* main */
+    .wrapper .owl-carousel{
+        overflow: hidden!important;
+        position: relative;
+    }
+    .wrapper .owl-carousel .item .img{
+        height: 150px!important;
+    }
+    .owl-nav>button{
+        display: none;
+    }
+    .wrapper .flex-box .flex-container{
+        flex-direction: column;
+    }
+    .wrapper .down-container{
+        margin-top: 50%;
+    }
+  .wrapper .down-container .main-block .f-block{
+      width: 100%;
+      height: 30%;
+    }
+    .wrapper .down-container .main-block .f-block .block-1-1>.block-1-btn,
+    .wrapper .down-container .main-block .s-block .block2>.block-1-btn,
+    .wrapper .down-container .main-block .t-block .block3>.block-1-btn{
+        margin-left: 73%;
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+    .wrapper .down-container .main-block .f-block .block-1-1>h3,
+  .wrapper .down-container .main-block .s-block .block2>h3,
+  .wrapper .down-container .main-block .t-block .block3>h3{
+      font-size: 14px;
+  }
+  .wrapper .down-container .main-block .f-block,
+    .wrapper .down-container .main-block .s-block,
+    .wrapper .down-container .main-block .t-block{
+        height: 40%;
+    }
+    .wrapper .down-container .main-block .s-block .block-2-1>.row,
+    .wrapper .down-container .main-block .t-block .block-3-1>.row,
+    .wrapper .down-container .main-block .f-block .block-1>.row {
+        padding: 20px;
+    }
+    .wrapper .down-container .main-block .f-block .block-1 .row>.top-img,
+    .wrapper .down-container .main-block .s-block .block-2-1 .row>.b-img,
+    .wrapper .down-container .main-block .t-block .block-3-1 .row>.b-img{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .wrapper .down-container .main-block .f-block .block-1 .row>h5,
+  .wrapper .down-container .main-block .s-block .block-2-1 .row>h4,
+  .wrapper .down-container .main-block .t-block .block-3-1 .row>h4 {
+      font-size: 90%;
+  }
+    .wrapper .down-container .main-block .f-block .block-1 .row>p,
+    .wrapper .down-container .main-block .s-block .block-2-1 .row>p,
+    .wrapper .down-container .main-block .t-block .block-3-1 .row>p{
+        font-size: 80%;
+    }
+    /* advortise */
+    .wrapper .advo{
+        display: none;
+    }
+    .wrapper .adv-1 .adv1-1>img{
+        width: 265px;
+        padding-left: 3px;
     }
 
 }
