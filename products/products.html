@@ -12,8 +12,9 @@
 
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="../css/product.css">
     <script type="text/javascript" src="../js/index.js"></script>
-
+    <script type="text/javascript" src="../js/product.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
         </script>
@@ -27,20 +28,161 @@
 
 <body>
     <div class="wrapper">
-    <div class="" id="header"></div>
+        <div class="" id="header"></div>
 
-    <div class="items-container">
-        <div class="sub-head">
-            <h2>Desi Cow</h2>
-            <div class="product-filter">
-                <div class="row">
-                    <div class="view">
-                        
+        <div class="items-container">
+            <div class="side-left">
+                <section class="product-filter">
+                    <h3>Filters</h3>
+                </section>
+                <section class="category">
+                    <div class="cat-head">
+                        <span>CATEGORIES</span>
                     </div>
+                    <div class="cat-body">
+                        <li><a href="">Desi Cow</a></li>
+                        <li><a href="">Organic/Natural</a></li>
+                        <li><a href="">Ayurvedic</a></li>
+                        <li><a href="">Farmer's Special</a></li>
+                        <li><a href="">Eco Products</a></li>
+                        <li><a href="">Deepavali Special</a></li>
+                        <li><a href="">Home-Made Products</a></li>
+                    </div>
+                </section>
+                <section class="range">
+                    <div class="price">
+                        <p>Price</p><span class="range"></span>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="dropdown">
+                        <p class="dropbtn">Brands<i></i></p>
+                        <div class="dropdown-content" id="myDropdown">
+                            <label for=""> <input type="checkbox" class="brand" readonly>A</label>
+                            <label for=""> <input type="checkbox" class="brand" readonly>B</label>
+                            <label for=""> <input type="checkbox" class="brand" readonly>C</label>
+                            <label for=""> <input type="checkbox" class="brand" readonly>D</label>
+                            <label for=""> <input type="checkbox" class="brand" readonly>E</label>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="dropdown">
+                        <p class="dropbtn">Customer Ratings<i></i></p>
+                        <div class="dropdown-content" id="myDropdown">
+                            <label for=""> <input type="checkbox" class="rating" readonly>4</label>
+                            <label for=""> <input type="checkbox" class="rating" readonly>3</label>
+                            <label for=""> <input type="checkbox" class="rating" readonly>2</label>
+                            <label for=""> <input type="checkbox" class="rating" readonly>1</label>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="dropdown">
+                        <p class="dropbtn">Discounts<i></i></p>
+                        <div class="dropdown-content" id="myDropdown">
+                            <label for=""> <input type="checkbox" class="discount" readonly> 80</label>
+                            <label for=""> <input type="checkbox" class="discount" readonly> 50</label>
+                            <label for=""> <input type="checkbox" class="discount" readonly> 40</label>
+                            <label for=""> <input type="checkbox" class="discount" readonly> 20</label>
+                            <label for=""> <input type="checkbox" class="discount" readonly> 10</label>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="side-right">
+                <div class="block-up">
+                    <div class="path">
+                        <span>Home</span><i class="fa fa-angle-right" aria-hidden="true"></i><span>Products</span>
+                    </div>
+                    <div class="block-head">
+                        <h4>Products</h4>
+                        <div class="sort">
+                            <div class="sort-1">
+                                <h5>Sort By</h5>
+                                <p class="p1">Popularity</p>
+                                <p class="p2">Price--Low to High</p>
+                                <p class="p3">Price--High to Low</p>
+                                <p class="p4">Newest First</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-down">
+                    <div class="row">
+                        <a href="sub-product.html">
+                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <img class="card-img" src="../assets/pro-imgs/43.jpg" alt="img">
+                            <div class="description">
+                                <h5>White Pepper <span>(0.050 Kgs)</span></h5>
+                                <p class="ac">₹250 <span class="ac-price">₹300</span></p>
+                                <div class="extra-info">
+                                    <p> Spices - White Pepper</p>
+                                    <p>Manufacturer: <span>KUSHAVATI FARM</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="sub-product.html">
+                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <img class="card-img" src="../assets/pro-imgs/black-peppar.jpg" alt="img">
+                            <div class="description">
+                                <h5>White Pepper <span>(0.050 Kgs)</span></h5>
+                                <p class="ac">₹250 <span class="ac-price">₹300</span></p>
+                                <div class="extra-info">
+                                    <p> Spices - White Pepper</p>
+                                    <p>Manufacturer: <span>KUSHAVATI FARM</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="sub-product.html">
+                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <img class="card-img" src="../assets/pro-imgs/5.jpg" alt="img">
+                            <div class="description">
+                                <h5>White Pepper <span>(0.050 Kgs)</span></h5>
+                                <p class="ac">₹250 <span class="ac-price">₹300</span></p>
+                                <div class="extra-info">
+                                    <p> Spices - White Pepper</p>
+                                    <p>Manufacturer: <span>KUSHAVATI FARM</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="sub-product.html">
+                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <img class="card-img" src="../assets/pro-imgs/223.jpg" alt="img">
+                            <div class="description">
+                                <h5>White Pepper <span>(0.050 Kgs)</span></h5>
+                                <p class="ac">₹250 <span class="ac-price">₹300</span></p>
+                                <div class="extra-info">
+                                    <p> Spices - White Pepper</p>
+                                    <p>Manufacturer: <span>KUSHAVATI FARM</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="sub-product.html">
+                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <img class="card-img" src="../assets/pro-imgs/224.jpg" alt="img">
+                            <div class="description">
+                                <h5>White Pepper <span>(0.050 Kgs)</span></h5>
+                                <p class="ac">₹250 <span class="ac-price">₹300</span></p>
+                                <div class="extra-info">
+                                    <p> Spices - White Pepper</p>
+                                    <p>Manufacturer: <span>KUSHAVATI FARM</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-    </div>
 
     </div>
 </body>

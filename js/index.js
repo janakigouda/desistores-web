@@ -66,9 +66,6 @@ $(document).ready(function () {
       items: 5,
       loop: true,
       touchDrag: true,
-    //   autoplay: true,
-    //   smartSpeed: 1000,
-    //   autoplaySpeed: 1500,
       responsiveClass: true,
       nav: true,
       responsive: {
@@ -93,9 +90,6 @@ $(document).ready(function () {
         items: 6,
         loop: true,
         touchDrag: true,
-        // autoplay: true,
-        // smartSpeed: 1000,
-        // autoplaySpeed: 1500,
         responsiveClass: true,
         nav: true,
         responsive: {
@@ -119,9 +113,6 @@ $(document).ready(function () {
         items: 6,
         loop: true,
         touchDrag: true,
-        // autoplay: true,
-        // smartSpeed: 1000,
-        // autoplaySpeed: 1500,
         responsiveClass: true,
         nav: true,
         responsive: {
