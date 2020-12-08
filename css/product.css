@@ -13,7 +13,8 @@
 }
 .wrapper .items-container .side-left .product-filter>h3{
     padding: 12px;
-    font-size: 20px;
+    font-size: 19px;
+    letter-spacing: 0.2px;
 }
 .wrapper .items-container .side-left .category{
     border-bottom: 1px solid gainsboro;
@@ -23,17 +24,17 @@
     padding: 5px;
 }
 .wrapper .items-container .side-left .category .cat-head span{
-    font-size: 13px;
+    font-size: 12px;
 }
 .wrapper .items-container .side-left .category .cat-body{
     padding:2px
 }
 .wrapper .items-container .side-left .category .cat-body li a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(79, 78, 78);
-    padding: 2px;
-    font-weight: 800;
+    padding: 3px;
+    font-weight: 550;
 }
 .wrapper .items-container .side-left .range{
     border-bottom: 1px solid gainsboro;
@@ -53,8 +54,8 @@
     padding-left: 5px;
 }
 .wrapper .items-container .side-left .section .dropdown .dropbtn{
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 600;
     padding: 5px;
 }
 .wrapper .items-container .side-left .section .dropdown .dropbtn i::after{
@@ -143,13 +144,14 @@
 }
 .wrapper .items-container .side-right .block-down .row{
     position: relative;
-    width: 25%;
+    width: 24%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
     transition: 0.3s;
     border-radius: 5px;
     height: 350px;
     float: left;
-    padding: 1px;
+    /* padding: 1px; */
+    margin: 5px;
 }
 .wrapper .items-container .side-right .block-down .row:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
@@ -187,6 +189,10 @@
 .wrapper .items-container .side-right .block-down .row:hover .description{
     height: 100px;
 }
+.wrapper .items-container .side-right .block-down .row:hover .description>h5{
+    font-size: 14px;
+    font-weight: 500;
+}
 .wrapper .items-container .side-right .block-down .row:hover .description h5,
 .wrapper .items-container .side-right .block-down .row:hover .description>.ac{
     color: rgb(77, 77, 228);
@@ -218,9 +224,178 @@
 
 /* sub-product */
 .wrapper .s-product{
-    background-color: white;
+    position: relative;
+    border-top: 1px solid gainsboro;
+    background-color: white!important;
 }
+.wrapper .s-product .row{
+    float: right;
+    width: 40%;
+    padding-top: 10px;
+}
+.wrapper .s-product .row .block1{
+    float: right;
+    width: 15%;
+    left: 0;
+    right: 0;
+    margin-right: 10px;
+}
+.wrapper .s-product .row .block1 .colum{
+    border: 0.5px solid rgb(242, 242, 242);
+}
+.wrapper .s-product .row .block1 .colum>img{
+    width: 100%;
+    height: 80px;
+    padding:5px ;
+}
+.wrapper .s-product .row .block1 .colum>img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+}
+.wrapper .s-product .row .block2{
+    width: 83%;
+}
+.wrapper .s-product .row .block2 .colum>img{
+    width: 100%;
+    height: 450px;
+    border: 0.5px solid rgb(242, 242, 242);
+    padding:5px ;
+}
+.wrapper .s-product .row .block2 .colum>img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+}
+.wrapper .s-product .row .btn1,
+.wrapper .s-product .row .btn2{
+   float: left;
+   margin-top:15px;
+   padding:5px ;
+   margin-bottom: 15px;
+}
+.wrapper .s-product .row .btn1 a{
+    background-color: #ff9f00;
+    padding: 18px 50px;
+    border-radius: 2px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+.wrapper .s-product .row .btn2 a{
+    background-color:#fb641b;
+    padding: 18px 70px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+.wrapper .s-product .row .btn1 a>i,
+.wrapper .s-product .row .btn2 a>i{
+    margin-right: 10px;
+    color: white;
+}
+.wrapper .s-product .row .btn1 a>.btn,
+.wrapper .s-product .row .btn2 a>.btn{
+    background-color: inherit;
+    border: none!important;
+    color: white;
+    font-weight: bolder;
+}
+.wrapper .s-product .row .btn1 a:hover,
+.wrapper .s-product .row .btn2 a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.wrapper .s-product .p-info{
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    width: 60%;
+}
+.wrapper .s-product .p-info h3{
+    font-family: Roboto,Arial,sans-serif;
+    color: black;
+    padding: 5px;
+    font-weight: normal;
+}
+.wrapper .s-product .p-info .rating{
+    width: 100%;
+}
+.wrapper .s-product .p-info .rating .rate{
+    float: left;
+    width: 7%;
+    padding: 2px;
+    overflow: hidden;
+}
+ .wrapper .s-product .p-info .rating .rate>.star{
+    padding: 5px;
+    background-color: rgb(11, 145, 11);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100%;
+}
+.wrapper .s-product .p-info .rating>.rate1{
+    float: left;
+    width: 90%;
+    padding: 5px;
+}
+.wrapper .s-product .p-info .rating>.rate1>.review{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgb(153, 153, 153);
+    top: 0;
+    margin-top: 2px;
+    letter-spacing: 0.5px;
+} 
 
-
-
-
+.wrapper .s-product .p-info .price{
+    position: relative;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.wrapper .s-product .p-info .price .m-price{
+    margin-top: 5px;
+    float: left;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+}
+.wrapper .s-product .p-info .price .m-price>span{
+    margin-left: 5px;
+    color: gray;
+    font-size: 17px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+.wrapper .s-product .p-info .price .off{
+    vertical-align: baseline;
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #388e3c;
+}
+.wrapper .s-product .tax{
+    position: relative;
+    padding: 5px;
+    width: 100%;
+}
+.wrapper .s-product .tax>table{
+    padding: 2px;
+    width: 50%;
+    font-size: 15px;
+}
+.wrapper .s-product .tax table tr{
+    padding: 10px;
+}
+.wrapper .s-product .tax table tr td{
+    padding: 3px;
+}
+.wrapper .s-product .des{
+    padding: 5px;
+}
+.wrapper .s-product .des>h4{
+    padding: 5px;
+    font-style: 14px;
+    font-weight: 600;
+}
+.wrapper .s-product .des>p{
+    padding: 2px;
+    letter-spacing: 0.1px;
+    font-size: 15px;
+    line-height: 20px;
+}

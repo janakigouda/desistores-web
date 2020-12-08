@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
 }
 body{
     background: #e8dce1;
-    font-family: "Lato, sans-serif"!important;
-    list-style-type: none!important;
-    height: 100%;
+   
 }
 div{
     display: block ;
@@ -16,6 +15,7 @@ div{
     overflow-x: hidden;
     height: 100%;
     overflow-y: scroll;
+    font-family: Roboto,Arial,sans-serif;
 }
 .wrapper::-webkit-scrollbar {
     display: none;
@@ -35,6 +35,8 @@ div{
     z-index: 999;
     background-color:#143763;
     overflow: hidden;
+    font-family: Roboto,Arial,sans-serif;
+    align-items: center;
 }
 .wrapper .header .test{
     position:fixed;
@@ -161,6 +163,7 @@ div{
 .wrapper .header .header-up .container .header-left .cart>a{
     text-decoration: none;
     color: whitesmoke;
+    font-size: 15px;
 }
 
 /* header down*/
@@ -195,8 +198,12 @@ div{
     text-decoration: none;
     padding:5px;
     font-weight: bold;
-    color: rgb(61, 14, 14);
+    color: rgb(56, 52, 52);
     transition: 0.3s;
+    font-size: 14px;
+}
+.wrapper .header .header-down .container .mega-menu .sub-menu>a>i{
+    color: gray;
 }
 .wrapper .header .header-down .container .mega-menu .sub-menu a:hover{
     color: rgb(60, 23, 161);
@@ -214,6 +221,7 @@ div{
     float: left;
     margin-top: 0.7%;
     background: linear-gradient(to right,  #eeeded 0%,#eeeded 20%,#f6f6f6 20%,#f6f6f6 40%,  #eeeded 40%,#eeeded 60%,#f6f6f6 60%,#f6f6f6 80%, #eeeded 80%,#eeeded 100%);
+    font-size: 13px;
 }
 .wrapper .header .header-down .container .mega-menu .sub-menu:hover .submenu-stepone{
     display:block;
@@ -663,6 +671,7 @@ padding-left: 5px;
     background-color: rgb(255, 255, 255);
     height: 70%;
     border-radius: 5px;
+    font-size: 14px;
   }
   .wrapper .down-container .main-block .f-block .block-1-1{
       position: relative;
@@ -745,6 +754,7 @@ padding-left: 5px;
         background-color: rgb(255, 255, 255);
         height: 50%;
         border-radius: 5px;
+        font-size: 14px;
   }
   .wrapper .down-container .main-block .s-block .block2,
   .wrapper .down-container .main-block .t-block .block3{
