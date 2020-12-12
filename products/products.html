@@ -7,31 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="../css/p-responsive.css">
     <link rel="stylesheet" href="../css/product.css">
-    <script type="text/javascript" src="../js/index.js"></script>
-    <script type="text/javascript" src="../js/product.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("#header").load("../includes/header.html");
-            //   $("#footer").load("footer.html"); 
-        });
-    </script>
+   
 </head>
 
 <body>
     <div class="wrapper">
         <div class="" id="header"></div>
-
         <div class="items-container">
-            <div class="side-left">
+            <div class="side-left" id="side-left">
                 <section class="product-filter">
                     <h3>Filters</h3>
                 </section>
@@ -178,13 +164,25 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    
+                    </div>  
                 </div>
             </div>
         </div>
-
     </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/product.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("../includes/header.html");
+            //   $("#side-left").load("../includes/filter.html"); 
+        });
+    </script>
 </body>
 
 </html>

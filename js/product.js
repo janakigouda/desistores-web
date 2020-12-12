@@ -6,15 +6,32 @@ $(document).ready(function(){
 });
 
 
+// function myFunction() {
+//   var x = document.getElementById("myDIV");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+
+
+
+
+
 $(document).ready(function() {
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 0) {
+    if ($(this).scrollTop() > 50) {
       $(".wrapper .s-product .row").addClass("stick");
-    } else {
+    } 
+    else if ($(this).scrollTop() > 200){
+      $(".wrapper .s-product .row").removeClass("stick");
+    }else{
       $(".wrapper .s-product .row").removeClass("stick");
     }
   });
 });
+
 $(document).ready(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() >= 500) {
@@ -24,3 +41,4 @@ $(document).ready(function() {
     }
   });
 });
+
