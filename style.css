@@ -5,7 +5,7 @@
     font-family: Roboto,Arial,sans-serif;
 }
 body{
-    background: #e8dce1;
+    background: #f1f3f6;;
    
 }
 div{
@@ -185,7 +185,7 @@ div{
     margin-top: 0.9rem;
     text-align: center;
 }
-.wrapper .header .header-down .container .mega-menu>.close-btn{
+.wrapper .header .header-down .container .mega-menu #btn-close{
     display: none;
 }
 .wrapper .header .header-down .container .mega-menu .sub-menu{

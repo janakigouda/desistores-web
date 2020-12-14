@@ -19,26 +19,26 @@ $(document).ready(function(){
 
 
 
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 50) {
-      $(".wrapper .s-product .row").addClass("stick");
-    } 
-    else if ($(this).scrollTop() > 200){
-      $(".wrapper .s-product .row").removeClass("stick");
-    }else{
-      $(".wrapper .s-product .row").removeClass("stick");
-    }
-  });
-});
+// $(document).ready(function() {
+//   $(window).scroll(function() {
+//     if ($(this).scrollTop() > 50) {
+//       $(".wrapper .s-product .row").addClass("stick");
+//     } 
+//     else if ($(this).scrollTop() > 200){
+//       $(".wrapper .s-product .row").removeClass("stick");
+//     }else{
+//       $(".wrapper .s-product .row").removeClass("stick");
+//     }
+//   });
+// });
 
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() >= 500) {
-      $(".wrapper .s-product").addClass("abc");
-    } else {
-      $(".wrapper .s-product").removeClass("abc");
-    }
-  });
-});
+// $(document).ready(function() {
+//   $(window).scroll(function() {
+//     if ($(this).scrollTop() >= 500) {
+//       $(".wrapper .s-product").addClass("abc");
+//     } else {
+//       $(".wrapper .s-product").removeClass("abc");
+//     }
+//   });
+// });
 
