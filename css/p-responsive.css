@@ -34,19 +34,21 @@
         right: 0;
         margin-left: 30px;
     }
-
     .wrapper .header .header-up .container .header-left{
         position: absolute;
         width: 30%;
         left: 500px;
+        /* overflow: hidden; */
     }
     .wrapper .header .header-up .container .header-left .header-c-s{
         position: relative;
         float: left;
+        /* overflow: hidden; */
     }
     .wrapper .header .header-up .container .header-left .cart{
         position: relative;
         float: left;
+        /* overflow: hidden; */
     }
     .wrapper .header .header-down{
         display: none;
@@ -197,51 +199,9 @@
 
 
     /* sub-products.html */
-    .wrapper .body-part .s-product .row{
-        width: 41.66%!important;
-        padding: 5px;
-        height:452px!important;
-    }
-    .wrapper .body-part .s-product .row .block2{
-        width: 250px!important;
-        margin-left: 70px!important;
-        height:350px!important ;
-    }
-    .wrapper .body-part .s-product .row .block2 .colum>img{
-        width: 250px!important;
-        height:350px!important ;
-    }
-    .wrapper .body-part .s-product .row .btn{
-        margin-left: 0!important;
-    }
-    .wrapper .body-part .s-product .row .btn .btn1 a{
-        padding: 10px 10px!important;
-        font-size: 11px!important;
-    }
-    .wrapper .body-part .s-product .row .btn .btn2 a{
-        padding: 10px 20px!important;
-        margin-left: 150px!important;
-        font-size: 11px!important;
-    }
-    .wrapper .body-part .s-product .p-info{
-        margin-left: 300px!important;
-    }
-    .wrapper .body-part .s-down-container{
-        height: 250px!important;
-    }
-    .wrapper .body-part .s-down-container .s-block .block2{
-        height: 60px!important;
-    }
-    .wrapper .body-part .s-down-container .s-block .block2 h3{
-        width: 500px!important;
-    }
-    .wrapper .body-part .s-down-container .s-block .block2 .block-1-btn{
-       margin-left: 88%!important;
-    }
-    .wrapper .body-part .s-down-container .s-block .block-2 .row a>.b-img{
-        height: 100px!important;
-    width: 130px!important;
-    }
+.wrapper .body-part .s-down-container .s-block .block2 .block-1-btn{
+    margin-left: 88%!important;
+}
 
 
 
@@ -514,12 +474,76 @@
 .wrapper .items-container .side-right .block-down .row .description{
     height:90px;
 }
-  
+  /* sub-product.html */
+  .wrapper .body-part .s-product{
+      display: flex;
+      flex-flow: column!important;
+  }
+  .wrapper .body-part .s-product .row{
+      width: 100%!important;
+      position: relative!important;
+      top: 0!important;
+  }
 
-
-
-
-
+  .wrapper .body-part .s-product .row .row1 .block1{
+      display: none;
+  }
+  .wrapper .body-part .s-product .row .row1 .block2{
+      width: 100%!important;
+  }
+  .wrapper .s-product .row .btn{
+      bottom: 0!important;
+      position: fixed;
+      left: 0!important;
+      margin: 0!important;
+  }
+  .wrapper .s-product .row .btn .btn1,
+.wrapper .s-product .row .btn .btn2{
+    margin: 0!important;
+}
+.wrapper .s-product .row .btn1 a button:hover,
+.wrapper .s-product .row .btn2 a button:hover{
+    box-shadow: 0!important;
+}
+.wrapper .body-part .s-product .p-info .price{
+    height: 30px!important;
+    margin: 0!important;
+}
+.wrapper .body-part .s-product .p-info .price .m-price{
+    font-size: 30px!important;
+    font-weight: 500!important;
+}
+.wrapper .body-part .s-product .tax{
+    margin-top: 5px!important;
+}
+.wrapper .body-part .s-product .tax>table{
+    width: 100%!important;
+    margin-top: 10px!important;
+}
+.wrapper .body-part .s-product .des>p,
+.wrapper .body-part .s-product .offer ul li p>span{
+    color: gray!important;
+}
+.wrapper .body-part .s-down-container .s-block .block2 h3{
+    width: 70%!important;
+    font-size: 20px!important;
+}
+.wrapper .body-part .s-down-container .s-block .block2 .block-1-btn{
+    margin-left: 80%!important;
+}
+.wrapper .body-part .s-down-container .s-block .block-2{
+    width: 100%!important;
+    display: flex!important;
+}
+.wrapper .body-part .s-down-container .s-block .block-2 .row{
+    flex-flow: row!important;
+    width: 300px!important;
+    border-left: 1px solid rgb(179, 177, 177);
+}
+.wrapper .body-part .s-down-container .s-block .block-2 .row a>.b-img{
+    height: 120px!important;
+    width: 100%!important;
+}
 
 
 

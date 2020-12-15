@@ -233,9 +233,8 @@
 
 .wrapper .body-part{
     margin: 0 auto;
-    max-width: 1366px;
-    min-width: 1128px;
     padding: 0;
+    border-top: 1px solid rgb(235, 227, 227);
 }
 .wrapper .body-part .s-product{
     background-color: white;
@@ -458,16 +457,20 @@
 .wrapper .body-part .s-down-container{
     position: relative;
 }
-.wrapper .s-down-container .s-block{
+.wrapper .body-part .s-down-container .s-block{
     position: relative;
     height: 300px;
     background-color: white;
     border-radius: 2px;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
 }
 .wrapper .body-part .s-down-container .s-block .block2{
+    display: flex;
     position: relative;
-    height: 60px;
+    min-height: 60px;
+    width: 100%;
 }
 .wrapper .body-part .s-down-container .s-block .block2 h3{
     position: absolute;
@@ -475,6 +478,7 @@
     font-size: x-large;
     font-weight: 700;
     padding: 15px;
+    flex-flow: row;
 }
 .wrapper .body-part .s-down-container .s-block .block2{
     border-bottom: 1px solid #ddd;
@@ -484,26 +488,37 @@
     top: 0;
     margin-top: 0.7rem;
     text-decoration: none;
-    padding: 7px 10px;
+    padding: 7px 9px;
     background-color: rgb(60, 153, 207);
     color: white;
     border-radius: 2px;
-    margin-left: 91%;
+    margin-left: 90%;
+    flex-flow: row;
 }
 .wrapper .body-part .s-down-container .s-block .block-2{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
-.wrapper .s-down-container .s-block .block-2 .row a{
+.wrapper .body-part .s-down-container .s-block .block-2 .row{
+    flex-flow: row;
+    width: 30%;
+}
+.wrapper .body-part .s-down-container .s-block .block-2 .row a{
     text-decoration: none;
+    width: 100%;
 }
 .wrapper .body-part .s-down-container .s-block .block-2 .row a>.b-img{
     height: 150px;
-    width: 200px;
-      padding: 10px;
+    width: 100%;
       transition: 0.2s;
       padding-left: 30px;
 }
+.wrapper .body-part .s-down-container .s-block .block-2 .row a>.b-img:hover,
+.wrapper .body-part .s-down-container .s-block .block-2 .row a>.b-img:focus{
+    transform: scale(1.1); 
+}
+
 .wrapper .body-part .s-down-container .s-block .block-2 .row a>h4{
     font-weight: 400;
       font-size: 14px;
