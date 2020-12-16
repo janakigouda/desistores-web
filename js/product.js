@@ -5,6 +5,17 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $(".wrapper .items-container .block-up-1 .block-head .sort").click(function(){
+    $(this).toggleClass("display").siblings().removeClass('display');
+  });
+});
+
+$(document).ready(function(){
+  $(".wrapper .items-container .side-left").click(function(){
+    $(this).toggleClass("view").siblings().removeClass('view');
+  });
+});
 
 // function myFunction() {
 //   var x = document.getElementById("myDIV");
@@ -14,10 +25,6 @@ $(document).ready(function(){
 //     x.style.display = "none";
 //   }
 // }
-
-
-
-
 
 // $(document).ready(function() {
 //   $(window).scroll(function() {
