@@ -540,3 +540,146 @@
 .wrapper .body-part .s-down-container .block .block-2 .row{
 padding: 10px;
 }
+
+/* cart.html */
+.wrapper .main-body{
+    width: 100%;
+    display: flex;
+}
+.wrapper .main-body .section1,
+.wrapper .main-body .section2{
+    flex-flow: row;
+    background-color: white;
+    margin-top:15px;
+    box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.1);
+}
+.wrapper .main-body .section1{
+    margin-left: 50px;
+    width: 900px;
+    height: 350px;
+    margin-right: 10px;
+}
+.wrapper .main-body .section1 .cart{
+    display: flex;
+    flex-flow:column;
+}
+.wrapper .main-body .section1 .cart .cart-up{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    height: 56px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-name{
+    height: 100%;
+    width: 25%;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-name h3{
+    font-size: 18px;
+    line-height: 56px;
+    padding: 0 24px;
+    font-weight: 500;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address{
+    width: 75%;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1{
+    display: flex;
+    width: 400px;
+    float: right;
+    margin-top: 5px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1 .dis2 .dis-021{
+    display: flex;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-del{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-del>.img{
+    height: 18px;
+    width: 18px;
+    margin-bottom: -4px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-del span{
+    font-weight: 500;
+    color: #878787;
+    font-size: 13px;
+    font-weight: 600;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1{
+    flex-flow: row;
+    width: 298px;
+    height: 45px;
+    margin-right: 10px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1 .dis1{
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1 .dis1 .dis-01{
+    width: 90%;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1 .dis1 i{
+    margin-left: 18px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1 .dis1{
+    display: flex;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis1 .desi-01{
+ padding: 13px 140px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0021,
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0022 {
+    flex-flow: row;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2{
+    margin-top: 0;
+    top: 0;
+    height: 220px;
+    background-color: white;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.1);
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021{
+    display: flex;
+    margin:5px ;
+    height: 150px;
+    width: 100%;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0021{
+    height: 100px;
+    width: 25%;
+    align-items: center;
+}
+.wrapper .main-body .section1 .cart .cart-middle{
+    display: flex;
+    flex-flow: column;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-up{
+    display: flex;
+} 
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc{
+    flex-flow: row;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down{
+    display: flex;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down .dis-02202,
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down .dis-02201{
+    flex-flow: row;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down .dis-02202{
+    display: flex;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down .dis-02202 .save-later{
+    flex-flow: row;
+}
+.wrapper .main-body .section2{
+    margin-right: 50px;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+}

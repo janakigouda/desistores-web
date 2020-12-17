@@ -10,11 +10,15 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/product.css">
     <link rel="stylesheet" href="../css/p-responsive.css">
-<style>
-    .wrapper .header .header-up .container .header-left .cart{
-        display: none;
-    }
-</style>
+    <style>
+        .wrapper .header .header-up .container .header-left .cart {
+            display: none;
+        }
+
+        .wrapper .header .header-down {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,25 +31,109 @@
                         <div class="c-name">
                             <h3>My Cart (<span>1</span>)</h3>
                         </div>
-                        <div class="c-del">
-                            <img src="../assets/kart-img/download.svg" alt="img">
-                            <span>Deliver to</span>
-                        </div>
-                        <div class="c-add">
-                            <div class="dis1">
-                                <div class="dis-01">
-                                    <span></span>
+                        <div class="c-address">
+                            <div class="c-address1">
+                                <div class="c-del">
+                                    <img src="../assets/kart-img/download.svg" alt="img" class="img">
+                                    <span>Deliver to</span>
                                 </div>
-                                <i class="fa fa-caret-down" aria-hidden="true"></i>
-                            </div>
-                            <div class="dis2">
-                                <div class="dis-021">
-                                    <div class="dis-0021">
-                                        <img src="../assets/kart-img/" alt="">
+                                <div class="c-add">
+                                    <div class="c-add1">
+                                        <div class="dis1">
+                                            <div class="dis-01">
+                                                <span>Belgaum - 590020</span>
+                                            </div>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dis2">
+                                        <div class="dis-021">
+                                            <div class="dis-0021">
+                                                <img src="../assets/kart-img/address-loggedout_397db0.svg" alt="">
+                                            </div>
+                                            <div class="dis-0022">
+                                                <div class="dis-00221">Log in view saved addresses</div>
+                                                <div class="dis-00222">
+                                                    <a href="">Log In</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dis-022">
+                                            <div class="dis-0023">
+                                                <input type="text" placeholder="Enter delivery pincode" maxlength="6"
+                                                    autocomplete="off" class="pin">
+                                                <span>check</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="dis-022">
-
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-middle">
+                        <div class="dis-022">
+                            <div class="dis-022-up">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="../assets/pro-imgs/CLOVE.jpg" alt="image">
+                                    </div>
+                                </a>
+                                <div class="dis-desc">
+                                    <div class="dis-0221">
+                                        <a href="sub-product.html">BLACK PEPPER</a>
+                                    </div>
+                                    <div class="dis-0222">Seller : <span>"Desi"</span></div>
+                                    <span>₹ 250</span>
+                                </div>
+                            </div>
+                            <div class="dis-022-down">
+                                <div class="dis-02201">
+                                    <button class="dis-btn">-</button>
+                                    <div class="dis-input">
+                                        <input type="text" value="1" class="input">
+                                    </div>
+                                    <button class="dis-btn">+</button>
+                                </div>
+                                <div class="dis-02202">
+                                    <div class="save-later">Save for later</div>
+                                    <div class="remove">Remove</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-down">
+                        <div class="dis-023">
+                            <div class="dis-0231">
+                                <form action="" method="POST">
+                                    <button class="place-order"><span>Place Order</span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="section2">
+                <div class="cart-down0">
+                    <div class="cart-down1">
+                        <span>Price Details</span>
+                        <div class="money">
+                            <div class="price">
+                                <div class="item">
+                                    <div class="price-item">Price (1 item)</div>
+                                </div>
+                                <span>₹ 250</span>
+                            </div>
+                            <div class="delivery">
+                                <div class="delivery1">
+                                    <div class="delivery2">Delivery Charges</div>
+                                </div>
+                                <span>₹ 30</span>
+                            </div>
+                            <div class="total">
+                                <div class="amount">
+                                    <div class="t-amount">Total Amount</div>
+                                </div>
+                                <div class="amount1">
+                                    <span>₹ 280</span>
                                 </div>
                             </div>
                         </div>
@@ -53,14 +141,6 @@
                 </div>
             </section>
         </div>
-
-
-
-
-
-
-
-
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
