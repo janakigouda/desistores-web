@@ -204,11 +204,97 @@
 .wrapper .body-part .s-down-container .s-block .block2 .block-1-btn{
     margin-left: 88%!important;
 }
-
-
-
-
-
+ /* cart.html */
+ .wrapper .main-body .section1{
+     width: 69%!important;
+     margin-left: 5px;
+     margin-right: 2.5px;
+ }
+ .wrapper .main-body .section1 .cart .cart-up .c-name h3{
+     padding: 0 20px!important;
+    font-size: 15px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1{
+    width: 350px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-del{
+    margin-left: 30px!important;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-del span{
+    font-size: 11px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1 .dis1 .dis-01 span{
+    font-size: 13px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add ,
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .c-add1{
+    width: 230px;
+    margin-right: 5px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2{
+    height:70%;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0021{
+    margin-left: 5px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0022{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0022 .dis-00221{
+    font-size: 12px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-021 .dis-0022 .dis-00221{
+    font-size: 13px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-022 .dis-0023{
+    margin-left: 10px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-022 .dis-0023 input::placeholder{
+    font-size: 12px;
+}
+.wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add .dis2 .dis-022 .dis-0023 span{
+    font-size: 13px;
+    margin-top: 18px;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-up a{
+    height: 122px;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221 a{
+    font-size: 13px;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down{
+    padding-top: 5px;
+}
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down .dis-02202 .save-later,
+.wrapper .main-body .section1 .cart .cart-middle .dis-022 .dis-022-down .dis-02202 .remove{
+    font-size: 14px;
+}
+.wrapper .main-body .section1 .cart .cart-down .dis-023 form button{
+    font-size: 13px;
+    padding: 12px 20px;
+}
+ .wrapper .main-body .section2{
+    width: 29%!important;
+    margin-left: 2.5px;
+    margin-right: 5px;
+    height: 230px;
+ }
+ .wrapper .main-body .section2 .cart-down0 .cart-down1>span{
+    font-size: 13px;
+}
+.wrapper .main-body .section2 .cart-down0 .cart-down1 .money{
+    padding: 0 10px;
+    font-size: 12px;
+}
+.wrapper .main-body .section2 .cart-down0 .cart-down1 .money .total .amount ,
+.wrapper .main-body .section2 .cart-down0 .cart-down1 .money .total .amount1 {
+    font-size: 13px;
+}
+.wrapper .main-body .mobile-view{
+    display: none;
+}
 
 
 
@@ -596,6 +682,48 @@
     height: 120px!important;
     width: 100%!important;
 }
+
+/* cart */
+.wrapper .main-body>.section1,
+.wrapper .main-body>.section2{
+    display: none;
+}
+.wrapper .main-body .mobile-view{
+    display: block;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1{
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #143763;
+    color: white;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back{
+    width: 15%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back a{
+    text-decoration: none;
+    padding: 15px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back a i{
+    padding: 15px;
+    color: white;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3{
+    padding: 15px;
+    font-size: 17px ;
+    font-weight: normal;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3>span{
+    display: none;
+}
+
+
+
 
 
 

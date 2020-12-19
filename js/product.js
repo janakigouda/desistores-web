@@ -16,6 +16,11 @@ $(document).ready(function(){
     $(this).toggleClass("view").siblings().removeClass('view');
   });
 });
+$(document).ready(function(){
+  $(".wrapper .main-body .section1 .cart .cart-up .c-address .c-address1 .c-add").click(function(){
+    $(this).toggleClass("view").siblings().removeClass('view');
+  });
+});
 
 // function myFunction() {
 //   var x = document.getElementById("myDIV");
