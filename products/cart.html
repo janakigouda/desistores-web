@@ -159,38 +159,35 @@
                                 <h3>My Cart <span>1</span></h3>
                             </div>
                             <div class="c-address">
-                                <div class="c-address1">
-                                    <div class="c-del">
-                                        <img src="../assets/kart-img/download.svg" alt="img" class="img">
-                                        <span>Deliver to</span>
-                                    </div>
-                                    <div class="c-add">
-                                        <div class="c-add1">
-                                            <div class="dis1">
-                                                <div class="dis-01">
-                                                    <span>Belgaum - 590020</span>
-                                                </div>
-                                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                <div class="c-add">
+                                    <div class="c-add1">
+                                        <div class="dis1">
+                                            <div class="dis11">
+                                                <div class="c-del">Deliver to </div>
+                                                <div class="dis-01">Belgaum - 590020</div>
+                                            </div>
+                                            <div class="dis-02">
+                                                <div class="change">Change</div>
                                             </div>
                                         </div>
-                                        <div class="dis2">
-                                            <div class="dis-021">
-                                                <div class="dis-0021">
-                                                    <img src="../assets/kart-img/address-loggedout_397db0.svg" alt="">
-                                                </div>
-                                                <div class="dis-0022">
-                                                    <div class="dis-00221">Log in view saved addresses</div>
-                                                    <div class="dis-00222">
-                                                        <a href="">Log In</a>
-                                                    </div>
+                                    </div>
+                                    <div class="dis2">
+                                        <div class="dis-021">
+                                            <div class="dis-0021">
+                                                <img src="../assets/kart-img/address-loggedout_397db0.svg" alt="">
+                                            </div>
+                                            <div class="dis-0022">
+                                                <div class="dis-00221">Log in view saved addresses</div>
+                                                <div class="dis-00222">
+                                                    <a href="">Log In</a>
                                                 </div>
                                             </div>
-                                            <div class="dis-022">
-                                                <div class="dis-0023">
-                                                    <input type="text" placeholder="Enter delivery pincode"
-                                                        maxlength="6" autocomplete="off" class="pin">
-                                                    <span>check</span>
-                                                </div>
+                                        </div>
+                                        <div class="dis-022">
+                                            <div class="dis-0023">
+                                                <input type="text" placeholder="Enter delivery pincode" maxlength="6"
+                                                    autocomplete="off" class="pin">
+                                                <span>check</span>
                                             </div>
                                         </div>
                                     </div>
@@ -200,32 +197,54 @@
                         <div class="cart-middle">
                             <div class="dis-022">
                                 <div class="dis-022-up">
-                                    <a href="">
-                                        <div class="img">
-                                            <img src="../assets/pro-imgs/CLOVE.jpg" alt="image">
-                                        </div>
-                                    </a>
                                     <div class="dis-desc">
                                         <div class="dis-0221">
                                             <a href="sub-product.html">BLACK PEPPER</a>
+                                            <div class="dis-0222">Seller : <span>"Desi"</span></div>
                                         </div>
-                                        <div class="dis-0222">Seller : <span>"Desi"</span></div>
-                                        <div id="amount" class="price">
+                                        <a href="">
+                                            <div class="img">
+                                                <img src="../assets/pro-imgs/CLOVE.jpg" alt="image" style="height: 72px; width: 72px;">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        <div class="price1">
                                             <span class="ac">₹250 </span>
                                             <span class="mac">₹350 </span>
-                                            <span class="perc">30% </span>
+                                            <span class="perc">30% <b>off</b></span>
+                                        </div>
+                                        <div class="price2">
+                                            <div class="price21">
+                                                <div class="qty">Qty:</div>
+                                                <div class="num">1</div>
+                                                <div><i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></div>
+                                            </div>
+                                            <div class="price22">
+                                                <div class="1">1</div>
+                                                <div class="2">2</div>
+                                                <div class="3">3</div>
+                                                <div class="more" onclick="qtyFunction()">More</div>
+                                            </div>
+                                            <div class="price23">
+                                                <div class="q-name">Enter Quantity</div>
+                                                <input type="number" placeholder="Quantity" autocomplete="on">
+                                                <div class="q-btn">
+                                                    <div class="q-btn1">
+                                                        <div class="btn-cancel">
+                                                            <div class="cancel">Cancel</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="q-btn2">
+                                                        <div class="btn-apply">
+                                                            <div class="apply">Apply</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="dis-022-down">
-                                    <div class="dis-02201">
-                                        <button class="dis-btn">-</button>
-                                        <div class="dis-input">
-                                            <input type="text" value="1" class="input">
-                                        </div>
-                                        <button class="dis-btn">+</button>
-                                    </div>
-                                    <div class="dis-02202">
+                                    <div class="dis-btns">
                                         <div class="save-later">Save for later</div>
                                         <div class="remove">Remove</div>
                                     </div>
@@ -247,7 +266,7 @@
                         </div>
                 </section>
                 <section class="section-2">
-                    <div class="cart-down0">
+                    <div id="amount" class="cart-down0">
                         <div class="cart-down1">
                             <span>Price Details</span>
                             <div class="money">

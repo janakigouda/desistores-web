@@ -703,14 +703,14 @@
     color: white;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back{
-    width: 15%;
+    width: 10%;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back a{
     text-decoration: none;
     padding: 15px;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back a i{
-    padding: 15px;
+    padding: 15px 7px;
     color: white;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3{
@@ -721,9 +721,156 @@
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3>span{
     display: none;
 }
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1{
+    height: 66px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1{
+    display: flex;
+    padding: 17px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis11{
+    display: flex;
+    width: 75%;
+    font-size: 14px;
+    height: 17px;
+    padding-top: 7px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis11 .dis-01{
+    margin-left: 5px;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis-02{
+    margin-left: 16px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis-02 .change{
+    padding: 9px 15px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .dis2{
+    display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle{    
+    display: flex;
+    background-color: white;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022{
+    display: flex;
+    width: 100%;
+}    
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up{
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221{
+    width: 75%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc>a{
+    width: 25%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc a>.img{
+    padding-left:15px ;
+    padding-right: 15px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221 .dis-0222{
+    font-size: 12px;
+    color: grey;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
+
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1{
+    width: 70%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.ac{
+    letter-spacing: 0.7px;
+    font-size: 18px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.mac{
+    font-size: 14px;
+    color: grey;
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.perc{
+    color: rgb(38, 165, 65);
+    font-size: 14px;
+    padding-left: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2{
+    width: 20%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21{
+    display: flex;
+    padding: 5px 5px;
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 2px;
+    align-items: center;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 .qty{
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 .num{
+    font-size: 14px;
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 div{
+    padding-left:8px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 div>i{
+    padding-bottom:7px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
+    width: 100%;
+    margin-top: 15px;
+    border-top:1px solid rgb(208, 205, 205);
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .save-later,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .remove{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
 
 
 
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23{
+    display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
+    display: flex;
+}
 
 
 
