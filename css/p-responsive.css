@@ -808,7 +808,7 @@
     font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1{
-    width: 70%;
+    width: 66%;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.ac{
     letter-spacing: 0.7px;
@@ -825,13 +825,18 @@
     font-size: 14px;
     padding-left: 5px;
 }
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1 .perc b{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    font-weight: 500;
+    font-size:14px ;
+}
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2{
-    width: 20%;
+    width: 27%;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21{
     display: flex;
-    padding: 5px 5px;
-    border: 1px solid rgb(160, 158, 158);
+    padding: 4px 15px;
+    border: 1px solid gainsboro;
     border-radius: 2px;
     align-items: center;
 }
@@ -853,15 +858,21 @@
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
     width: 100%;
     margin-top: 15px;
-    border-top:1px solid rgb(208, 205, 205);
+    
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .save-later,
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .remove{
     width: 50%;
     text-align: center;
     padding: 15px;
+    border: 1px solid rgb(251 242 242);
+    font-size: 14px;
 }
-
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .save-later>i,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .remove>i{
+    margin-right: 5px;
+    color: rgb(169, 164, 164);
+}
 
 
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22,
@@ -871,9 +882,178 @@
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
     display: flex;
 }
-
-
-
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date{
+    width: 100%;
+    padding-top: 10px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date .deli{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date .deli .deli1{
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date .deli .deli1 p{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers{
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .applied,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .available{
+    display: flex;
+    font-size: 13px;
+    color: rgb(38, 165, 65);
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers span{
+    color: rgb(38, 165, 65);
+    margin-right: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .applied p,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .available p{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down{
+    height: 64px;
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231>.c-d-form{
+    padding:5px;
+    display: flex;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form .amount{
+    width: 60%;    
+    padding: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form .amount div>.t-price{
+    font-size: 24px;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form .amount>a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form>button{
+    margin: 5px;
+    width: 40%;
+    padding: 5px 25px;
+    background-color: rgb(255, 88, 0);
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form button>span{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-2{
+    width: 100%;
+    background-color: white;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 {
+    padding: 5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .c-head{
+    width: 100%;
+    height: 47px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .c-head>span{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    color: rgb(165, 159, 159);
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money{
+    width: 100%;
+    padding: 5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed gainsboro;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .price,
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .delivery{
+    display: flex;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding: 3px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .price .item,
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .delivery .delivery1{
+    width: 80%;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .price>span,
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .delivery>span{
+    width: 20%;
+    text-align: end;
+    letter-spacing: 0.5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total{
+    display: flex;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    width: 100%;
+    padding:5px ;
+    border-bottom: 1px solid gainsboro;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount{
+    width: 80%;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount .t-amount{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount1{
+    width: 20%;
+    text-align: end;
+    letter-spacing: 0.5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount1 span{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    font-size: 18px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .m-save{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .m-save .m-save1{
+    display: flex;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    color: rgb(38, 165, 65);
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .m-save .m-save1 p{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    padding-right: 2px;
+    padding-left: 2px;
+}
 
 }
 
@@ -1180,9 +1360,6 @@
     text-align: end;
     padding:5px ;
 }
-
-
-
  .wrapper .items-container .side-right{
      width: 100%!important;
      right: unset!important;
@@ -1291,6 +1468,379 @@
 .wrapper .body-part .s-down-container .block .block-2 .row a>p>span{
     font-size: 14px;
     color: gray;
+}
+/* cart */
+.wrapper .main-body>.section1,
+.wrapper .main-body>.section2{
+    display: none;
+}
+.wrapper .main-body .mobile-view{
+    display: block;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1{
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    background-color: #143763;
+    color: white;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back{
+    width: 10%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back a{
+    text-decoration: none;
+    padding: 15px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name .back a i{
+    padding: 15px 7px;
+    color: white;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3{
+    padding: 15px;
+    font-size: 15px ;
+    font-weight: normal;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3>span{
+    display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1{
+    height: 50px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1{
+    display: flex;
+    padding: 10px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis11{
+    display: flex;
+    width: 75%;
+    font-size: 13px;
+    height: 17px;
+    padding-top: 7px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis11 .dis-01{
+    margin-left: 5px;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis-02{
+    margin-left: 16px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1 .dis1 .dis-02 .change{
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 13px;
+    color: blue;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .dis2{
+    display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle{    
+    display: flex;
+    background-color: white;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022{
+    display: flex;
+    width: 100%;
+}    
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up{
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221{
+    width: 75%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc>a{
+    width: 25%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc a>.img{
+    padding-left:5px ;
+    padding-right: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221>a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-desc .dis-0221 .dis-0222{
+    font-size: 11px;
+    color: grey;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
+
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1{
+    width: 66%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.ac{
+    letter-spacing: 0.7px;
+    font-size: 16px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.mac{
+    font-size: 12px;
+    color: grey;
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1>.perc{
+    color: rgb(38, 165, 65);
+    font-size: 12px;
+    padding-left: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price1 .perc b{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    font-weight: 500;
+    font-size:14px ;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2{
+    width: 27%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21{
+    display: flex;
+    padding:1px 10px;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    align-items: center;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 .qty{
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 .num{
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 div{
+    padding-left:4px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price21 div>i{
+    padding-bottom:7px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .save-later,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .remove{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(251 242 242);
+    font-size: 12px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .save-later>i,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns .remove>i{
+    margin-right: 5px;
+    color: rgb(169, 164, 164);
+}
+
+
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23{
+    display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
+    display: flex;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date{
+    width: 100%;
+    padding-top: 10px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date .deli{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date .deli .deli1{
+    display: flex;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .del-date .deli .deli1 p{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers{
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .applied,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .available{
+    display: flex;
+    font-size: 11px;
+    color: rgb(38, 165, 65);
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers span{
+    color: rgb(38, 165, 65);
+    margin-right: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .applied p,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1 .available p{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down{
+    height: 50px;
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231>.c-d-form{
+    padding:5px;
+    display: flex;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form .amount{
+    width: 60%;    
+    padding: 5px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form .amount div>.t-price{
+    font-size: 18px;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form .amount>a{
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form>button{
+    margin: 7px;
+    width: 40%;
+    padding: 4px 25px;
+    background-color: rgb(255, 88, 0);
+    border: none;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form button>span{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-2{
+    width: 100%;
+    background-color: white;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 {
+    padding: 5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .c-head{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .c-head>span{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    color: rgb(165, 159, 159);
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money{
+    width: 100%;
+    padding: 5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed gainsboro;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .price,
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .delivery{
+    display: flex;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 3px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .price .item,
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .delivery .delivery1{
+    width: 80%;
+    letter-spacing: 0.1px;
+    font-size: 12px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .price>span,
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .money-1 .delivery>span{
+    width: 20%;
+    text-align: end;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total{
+    display: flex;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 100%;
+    padding:5px ;
+    border-bottom: 1px solid gainsboro;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount{
+    width: 80%;
+    letter-spacing: 0.1px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount .t-amount{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount1{
+    width: 20%;
+    text-align: end;
+    letter-spacing: 0.5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .total .amount1 span{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    font-size: 15px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .m-save{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .m-save .m-save1{
+    display: flex;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    color: rgb(38, 165, 65);
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    letter-spacing: 0.1px;
+    font-size: 12px;
+}
+.wrapper .main-body .mobile-view .section-2 .cart-down0 .cart-down1 .money .m-save .m-save1 p{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    padding-right: 2px;
+    padding-left: 2px;
+
 }
 
 

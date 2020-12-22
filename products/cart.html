@@ -21,7 +21,11 @@
             .wrapper .header {
                 display: none;
             }
-
+        }
+        @media only screen and (min-width:280px) and (max-width: 340px){
+            .wrapper .header {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -204,7 +208,8 @@
                                         </div>
                                         <a href="">
                                             <div class="img">
-                                                <img src="../assets/pro-imgs/CLOVE.jpg" alt="image" style="height: 72px; width: 72px;">
+                                                <img src="../assets/pro-imgs/CLOVE.jpg" alt="image"
+                                                    style="height: 72px; width: 72px;">
                                             </div>
                                         </a>
                                     </div>
@@ -244,9 +249,22 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="offers">
+                                        <div class="offers1">
+                                            <span class="applied"><p class="num-app">3</p> offers applied</span>
+                                            <span>• </span>
+                                            <span class="available"><p class="num-ava">2</p> offers available</span>
+                                        </div>
+                                    </div>
+                                    <div class="del-date">
+                                        <div class="deli">
+                                            <div class="deli1">Delivery by <p class="date"> Sat Dec 29</p> | <p class="deli-amount">₹30</p></div>
+                                        </div>
+                                    </div>
                                     <div class="dis-btns">
-                                        <div class="save-later">Save for later</div>
-                                        <div class="remove">Remove</div>
+                                        <div class="save-later"><i class="fa fa-plus-square" aria-hidden="true"></i>
+                                            Save for later</div>
+                                        <div class="remove"><i class="fa fa-trash" aria-hidden="true"></i> Remove</div>
                                     </div>
                                 </div>
                             </div>
@@ -254,9 +272,11 @@
                         <div class="cart-down">
                             <div class="dis-023">
                                 <div class="dis-0231">
-                                    <form action="" method="POST">
+                                    <form action="" method="POST" class="c-d-form">
                                         <div class="amount">
-                                            <span>₹250</span>
+                                            <div>
+                                                <span class="t-price">₹250</span>
+                                            </div>
                                             <a href="#amount">Details</a>
                                         </div>
                                         <button class="place-order"><span>Place Order</span></button>
@@ -268,27 +288,34 @@
                 <section class="section-2">
                     <div id="amount" class="cart-down0">
                         <div class="cart-down1">
-                            <span>Price Details</span>
+                            <div class="c-head">
+                                <span>PRICE DETAILS</span>
+                            </div>
                             <div class="money">
-                                <div class="price">
-                                    <div class="item">
-                                        <div class="price-item">Price (1 item)</div>
+                                <div class="money-1">
+                                    <div class="price">
+                                        <div class="item">
+                                            <div class="price-item">Price (1 item)</div>
+                                        </div>
+                                        <span>₹250</span>
                                     </div>
-                                    <span>₹ 250</span>
-                                </div>
-                                <div class="delivery">
-                                    <div class="delivery1">
-                                        <div class="delivery2">Delivery Charges</div>
+                                    <div class="delivery">
+                                        <div class="delivery1">
+                                            <div class="delivery2">Delivery Charges</div>
+                                        </div>
+                                        <span>₹30</span>
                                     </div>
-                                    <span>₹ 30</span>
                                 </div>
                                 <div class="total">
                                     <div class="amount">
                                         <div class="t-amount">Total Amount</div>
                                     </div>
                                     <div class="amount1">
-                                        <span>₹ 280</span>
+                                        <span>₹280</span>
                                     </div>
+                                </div>
+                                <div class="m-save">
+                                    <div class="m-save1">You will save ₹<p>30</p> on this order</div>
                                 </div>
                             </div>
                         </div>
@@ -317,3 +344,4 @@
 </body>
 
 </html>
+
