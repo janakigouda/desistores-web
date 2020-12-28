@@ -22,7 +22,8 @@
                 display: none;
             }
         }
-        @media only screen and (min-width:280px) and (max-width: 340px){
+
+        @media only screen and (min-width:280px) and (max-width: 340px) {
             .wrapper .header {
                 display: none;
             }
@@ -220,45 +221,57 @@
                                             <span class="perc">30% <b>off</b></span>
                                         </div>
                                         <div class="price2">
-                                            <div class="price21">
+                                            <div class="price21" id="priceValue">
                                                 <div class="qty">Qty:</div>
-                                                <div class="num">1</div>
+                                                <div class="num" id="num">1</div>
                                                 <div><i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i></div>
                                             </div>
                                             <div class="price22">
-                                                <div class="1">1</div>
-                                                <div class="2">2</div>
-                                                <div class="3">3</div>
-                                                <div class="more" onclick="qtyFunction()">More</div>
+                                                <div id="myselect" class="myselect">
+                                                    <div class="button 1">1</div>
+                                                    <div class="button 2">2</div>
+                                                    <div class="button 3">3</div>
+                                                    <div class="button more">More</div>
+                                                </div>
                                             </div>
+
                                             <div class="price23">
-                                                <div class="q-name">Enter Quantity</div>
-                                                <input type="number" placeholder="Quantity" autocomplete="on">
-                                                <div class="q-btn">
-                                                    <div class="q-btn1">
-                                                        <div class="btn-cancel">
-                                                            <div class="cancel">Cancel</div>
+                                                <div class="price231">
+                                                    <div class="q-name">Enter Quantity</div>
+                                                    <input type="number" id="quantity" placeholder="Quantity" autocomplete="on">
+                                                    <div class="q-btn">
+                                                        <div class="q-btn1">
+                                                            <div class="btn-cancel">
+                                                                <div class="cancel">Cancel</div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="q-btn2">
-                                                        <div class="btn-apply">
-                                                            <div class="apply">Apply</div>
+                                                        <div class="q-btn2">
+                                                            <div class="btn-apply">
+                                                                <div class="apply" onclick="applyFun()">Apply</div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                     <div class="offers">
                                         <div class="offers1">
-                                            <span class="applied"><p class="num-app">3</p> offers applied</span>
+                                            <span class="applied">
+                                                <p class="num-app">3</p> offers applied
+                                            </span>
                                             <span>• </span>
-                                            <span class="available"><p class="num-ava">2</p> offers available</span>
+                                            <span class="available">
+                                                <p class="num-ava">2</p> offers available
+                                            </span>
                                         </div>
                                     </div>
                                     <div class="del-date">
                                         <div class="deli">
-                                            <div class="deli1">Delivery by <p class="date"> Sat Dec 29</p> | <p class="deli-amount">₹30</p></div>
+                                            <div class="deli1">Delivery by <p class="date"> Sat Dec 29</p> | <p
+                                                    class="deli-amount">₹30</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="dis-btns">
@@ -344,4 +357,3 @@
 </body>
 
 </html>
-

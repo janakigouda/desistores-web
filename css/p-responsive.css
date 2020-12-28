@@ -695,7 +695,12 @@
 .wrapper .main-body .mobile-view .section-1{
     width: 100%;
 }
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up{
+    position: relative;
+    height: 120px;
+}
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name{
+    position: fixed;
     display: flex;
     height: 50px;
     width: 100%;
@@ -720,6 +725,10 @@
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-name h3>span{
     display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address{
+    position: relative;
+    top:50px;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-up .c-address .c-add .c-add1{
     height: 66px;
@@ -873,12 +882,6 @@
     margin-right: 5px;
     color: rgb(169, 164, 164);
 }
-
-
-.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22,
-.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23{
-    display: none;
-}
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .dis-btns{
     display: flex;
 }
@@ -901,6 +904,7 @@
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers{
     width: 100%;
+    overflow: hidden;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .offers .offers1{
     display: flex;
@@ -951,7 +955,7 @@
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form>button{
     margin: 5px;
-    width: 40%;
+    width: 50%;
     padding: 5px 25px;
     background-color: rgb(255, 88, 0);
     border: none;
@@ -960,6 +964,7 @@
     border-radius: 2px;
 }
 .wrapper .main-body .mobile-view .section-1 .cart .cart-down .dis-023 .dis-0231 .c-d-form button>span{
+    font-size: 16px;
     font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
 }
 .wrapper .main-body .mobile-view .section-2{
@@ -1054,6 +1059,114 @@
     padding-right: 2px;
     padding-left: 2px;
 }
+
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23{
+    display: none;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .view1 .price22{
+    display: block;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22{
+    position: relative;
+    width: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22>div{
+    position: absolute;
+    width: 100%;
+   text-align: center;
+   margin-top: 0;
+   top: 0;
+   border: 1px solid gainsboro;
+   background-color: white;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22>div>div{
+    font-size: 15px;
+    padding: 3px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .view12 .price23{
+    display: block;
+    bottom: 0;
+    transition: 0.5s;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23{
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(56, 56, 56, 0.9);
+    transition: 0.5s;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231{
+    background-color: white;
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    margin-top: 60%;
+    border-radius: 2px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-name{
+    width: 100%;
+    padding: 25px 0px 10px 25px;
+    color: gray;
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    font-size: 18px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 input{
+    border: none;
+    outline: none;
+    padding: 15px 0px 20px 25px;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    /* padding-top: 5px; */
+   border-top: 1px solid gainsboro;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn1{
+    border-right: 1px solid gainsboro;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn1,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn2{
+    width: 50%;
+    text-align: center;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn1 .btn-cancel,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn2 .btn-apply{
+    text-align: center;
+    height: 100%;
+}
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn1 .btn-cancel .cancel,
+.wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23 .price231 .q-btn .q-btn2 .btn-apply .apply{
+    font-family: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+    padding-top: 10px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -1659,8 +1772,6 @@
     margin-right: 5px;
     color: rgb(169, 164, 164);
 }
-
-
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price22,
 .wrapper .main-body .mobile-view .section-1 .cart .cart-middle .dis-022 .dis-022-up .price .price2 .price23{
     display: none;
